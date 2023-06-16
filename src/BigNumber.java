@@ -8,7 +8,7 @@ public class BigNumber {
 
         System.out.print("Enter the first number: ");
         int firstNumber = scanner.nextInt();
-        
+
         System.out.print("Enter the second number: ");
         int secondNumber = scanner.nextInt();
 

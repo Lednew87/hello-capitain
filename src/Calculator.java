@@ -7,9 +7,9 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double firstNumber = scanner.nextInt();
+        double firstNumber = scanner.nextDouble();
         System.out.print("Enter the second number: ");
-        double secondNumber = scanner.nextInt();
+        double secondNumber = scanner.nextDouble();
         System.out.print("Select the operator +,-,*,/: ");
         char operator = scanner.next().charAt(0);
 
@@ -23,7 +23,7 @@ public class Calculator {
                 result = firstNumber - secondNumber;
                 break;
             case '*':
-                result = firstNumber * secondNumber;    
+                result = firstNumber * secondNumber;
                 break;
             case '/':
                 if (secondNumber != 0) {

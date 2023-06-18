@@ -31,5 +31,5 @@ public class Loops {
         System.out.println("You entered: " + number);
         scanner.close();
         }
-        
+
     }
